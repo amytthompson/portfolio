@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Portfolio</title>
+  <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300" rel='stylesheet'>
+    <link rel="stylesheet" href="css/styles.css">
+  <!-- JQuery and JavaScript -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  <!-- Main -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/udacity-logo.jpg" alt="udacity logo">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1>amy thompson</h1>
+          <h4>front-end ninja</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive center-block bsprings" src="images/bsprings.jpg" alt="barton springs">
+        </div>
+      </div>
+  <!-- Projects -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-capitalize text-muted">featured work</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <a href="#"><img class="img-responsive project1 center-block" src="images/timamy.png" alt="tim" data-toggle="modal" data-target="#feature1"></a>
+          <h3 class="text-uppercase">tim</h3>
+          <p class="text-center">https://github.com/udacity/tim</p>
+        </div>
+        <div class="col-md-4">
+          <a href="#"><img class="img-responsive project2 center-block" src="images/vino-sun.jpg" alt="dog" data-toggle="modal" data-target="#feature2"></a>
+          <h3 class="text-uppercase">dog</h3>
+          <p class="text-center">https://github.com/udacity/dog</p>
+        </div>
+        <div class="col-md-4">
+          <a href="#"><img class="img-responsive project3 center-block" src="images/flowers.jpg" alt="flowers" data-toggle="modal" data-target="#feature3"></a>
+          <h3 class="text-uppercase">flowers</h3>
+          <p class="text-center">https://github.com/udacity/flowers</p>
+        </div>
+      </div>
+  <!-- Modal -->
+    <div class="modal fade" id="feature1" tabindex="-1" role="dialog" aria-labelledby="myHusband" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myHusband">Me and my DH!</h4>
+          </div>
+          <div class="modal-body">
+            <img class="project1" src="images/timamy.png" alt="tim">
+            <h4>Favorite Person</h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+    <div class="modal fade" id="feature2" tabindex="-1" role="dialog" aria-labelledby="myDog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myDog">Vino!</h4>
+          </div>
+          <div class="modal-body">
+            <img class="project2" src="images/vino-sun.jpg" alt="dog">
+            <h4>Favorite Animal</h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Modal -->
+    <div class="modal fade" id="feature3" tabindex="-1" role="dialog" aria-labelledby="myFlowers" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myFlowers">Flowers!</h4>
+          </div>
+          <div class="modal-body">
+            <img class="project3" src="images/flowers.jpg" alt="flowers">
+            <h4>Favorite Thing</h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
